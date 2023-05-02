@@ -20,6 +20,8 @@ define view Z_I_BOOKSUPPL_9117
       price,
       @Semantics.currencyCode: true
       currency_code,
+      @Semantics.systemDateTime.lastChangedAt: true
+      _Travel.last_change_at,
       _Booking,
       _Travel,
       _Product,
